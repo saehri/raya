@@ -1,0 +1,29 @@
+{
+  "name": "raya",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fireworks-js/react": "^2.10.3",
+    "framer-motion": "^10.12.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-use-keypress": "^1.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0-beta.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "scss": "^0.2.4",
+    "tailwindcss": "^3.3.1",
+    "vite": "^4.3.0"
+  }
+}
